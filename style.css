@@ -1,0 +1,69 @@
+body{
+	background-color: black;
+}
+
+.calculator-container{
+	width: 308px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px;
+    height: 465px;
+    border-radius: 5px;
+	 -moz-box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+	-webkit-box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+ box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 1px -1px 12px 0.1px #89847e;
+}
+
+.textInput{
+	width: 100%;
+}
+
+.textInput > input{
+	width: 100%;
+	height: 40px;
+	text-align: right;
+  font-size: 2em;
+  background-color:#C0C0C0;
+}
+
+.buttonsDiv{
+	width: 90%;
+	height: 69%;
+	margin: 0 auto;
+	
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.key {
+	font-weight: bold;
+	font-size: 1em;
+  background-color: white;
+  border: 0.5px solid #7d849933;
+  margin: 10px;
+  background-color: white;
+  -moz-box-shadow: 2px 2px 2px rgba(114,127,140,0.74);
+	-webkit-box-shadow: 5px 5px 5px rgba(114,127,140,0.6);
+	box-shadow: 5px 3px 3px  
+    rgba(4, 20, 36, 0.74)
+
+}
+
+.special{
+	background-color: black;
+	color: white;
+}
+
+.delete{
+	background-color: blue;
+	color: white;
+}
+
+.equals{
+	background-color: red;
+	color: white;
+}
+
+button, input:focus{
+	outline: none;
+}
