@@ -107,3 +107,29 @@ h1,h5{
 
 }
 }
+
+@media only screen and (max-width: 376px){
+.calculator-container {
+    width: 88%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #343436;
+    padding: 10px;
+    height: 407px;
+    border-radius: 8px;
+}
+
+.textInput > input {
+    width: 97%;
+    height: 46px;
+    font-size: 45px;
+}
+.key {
+    font-size: 1em;
+}
+
+.buttonsDiv {
+    height: 63%;
+}
+
+}
