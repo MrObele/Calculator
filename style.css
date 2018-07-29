@@ -10,7 +10,7 @@ body{
     padding: 10px;
     height: 465px;
     border-radius: 8px;
-	     -moz-box-shadow: 7px 10px 34px 1px rgba(54, 53, 53, 0.68), inset 1px -1px 12px 0.1px #131313;
+	         -moz-box-shadow: 7px 10px 34px 1px rgba(54, 53, 53, 0.68), inset 1px -1px 12px 0.1px #131313;
     -webkit-box-shadow: 7px 10px 34px 1px rgba(54, 53, 53, 0.68), inset 1px -1px 12px 0.1px #131313;
     box-shadow: 7px 10px 34px 1px rgba(73, 70, 70, 0.68), inset 1px -1px 12px 0.1px #8a8888;
 }
