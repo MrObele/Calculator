@@ -73,6 +73,7 @@ button, input:focus{
 	outline: none;
 }
 
-h5{
-	color: white;
+h1,h5{
+	color: #b8b4b4;;
 }
+
