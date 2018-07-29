@@ -77,3 +77,33 @@ h1,h5{
 	color: #b8b4b4;;
 }
 
+/*RESPONSIVE*/
+@media only screen and (max-width: 425px){
+.calculator-container {
+    width: 78%;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #343436;
+    padding: 10px;
+    height: 950px;
+    border-radius: 8px;
+}
+
+.textInput > input {
+    width: 97%;
+    height: 73px;  
+    font-size: 75px;
+   
+}
+
+.buttonsDiv{
+	
+	height: 82%;
+}
+
+.key {
+	
+	font-size: 2em;
+
+}
+}
