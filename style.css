@@ -6,13 +6,13 @@ body{
 	width: 308px;
     text-align: center;
     margin: 0 auto;
-    background-color: gray;
+    background-color: #6b6a6a;
     padding: 10px;
     height: 465px;
-    border-radius: 5px;
-	 -moz-box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
-	-webkit-box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
- box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset 1px -1px 12px 0.1px #89847e;
+    border-radius: 8px;
+	 -moz-box-shadow: 7px 10px 34px 1px rgba(54, 53, 53, 0.68), inset 1px -1px 12px 0.1px #131313;
+    -webkit-box-shadow: 7px 10px 34px 1px rgba(54, 53, 53, 0.68), inset 1px -1px 12px 0.1px #131313;
+    box-shadow: 7px 10px 34px 1px rgba(54, 53, 53, 0.68), inset 1px -1px 12px 0.1px #131313;
 }
 
 .textInput{
@@ -54,16 +54,25 @@ body{
 	color: white;
 }
 
-.delete{
-	background-color: blue;
+.deleteVlues{
+	background-color: orange;
 	color: white;
 }
 
 .equals{
+	background-color: green;
+	color: white;
+}
+
+.clear{
 	background-color: red;
 	color: white;
 }
 
 button, input:focus{
 	outline: none;
+}
+
+h5{
+	color: white;
 }
